@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">Dashboard</div>
+
+                @if (Route::has('login'))
+                <div class="top-right links">
+                    @auth
+                        <a href="">Home</a>
+                    @else
+                        <a href="">Login</a>
+
+                        @if (Route::has('register'))
+                            <a href="">Register</a>
+                        @endif
+                    @endauth
+                </div>
+            @endif
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<router-outlet></router-outlet>
