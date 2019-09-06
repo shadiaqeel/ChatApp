@@ -7,5 +7,7 @@
 			"path": "laravelPhp"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "laravelPhp"
+	}
 }
