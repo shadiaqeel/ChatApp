@@ -1,8 +1,49 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,600");
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Bootstrap
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
+
+html,body {
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  margin: 0;
+  padding : 0;
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: linear-gradient(to bottom, rgba(59, 42, 150, 0.47) 0, rgba(19, 18, 37, 0.8) 90%), url(/images/login-background.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.form-group div input {
+  border-radius: 2rem;
+}
+
+@import "form";
+
+
+
+.chatbackground{
+
+background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+
+}
