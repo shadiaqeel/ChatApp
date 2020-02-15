@@ -36,9 +36,8 @@ export default {
     // =======  Send Request to  Server   =======
 
     // axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
-
     axios
-      .get("http://127.0.0.1:8000/contacts")
+      .get("/contacts")
       .then(response => {
         //Vue.set(this,'contacts',response.data);
         this.contacts = response.data;
@@ -75,7 +74,7 @@ export default {
         return;
       }
 
-    this.UpdateUnreadCount(message.from_contact, false);
+      this.UpdateUnreadCount(message.from_contact, false);
       //alert(message.text);
     },
     UpdateUnreadCount(contact, reset) {
@@ -99,6 +98,8 @@ export default {
 <style lang="scss" scoped>
 .ChatApp {
   display: flex;
+  background-color : #f0f0f000;
+  width:100%;
 }
 </style>
 

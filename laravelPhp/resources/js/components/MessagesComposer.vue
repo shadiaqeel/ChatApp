@@ -22,19 +22,25 @@ export default {
 };
 </script>
 
+
+
+
+
+
 <style lang="scss" scoped>
 
 .Composer{
 
+
     textarea{
 
-        width: 98%;
+        width: 96%;
         margin: 10px;
         resize : none;
         border-radius: 5px;
         border : 1px solid lightgray;
         padding:10px;
-        
+
     }
 }
 </style>

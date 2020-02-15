@@ -84,7 +84,6 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
-                <app-root></app-root>
 
 
                 <div class="links">

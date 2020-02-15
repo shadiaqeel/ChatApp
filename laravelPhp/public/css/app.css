@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Nunito:200,600);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10642,5 +10642,134 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+html,
+body {
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(59, 42, 150, 0.47) 0, rgba(19, 18, 37, 0.8) 90%), url(/images/login-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.form-group div input {
+  border-radius: 2rem;
+}
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+.card-sign {
+  border: 0;
+  border-radius: 80px 0 80px 0;
+  box-shadow: 0 1rem 2rem 0 #030521;
+  width: 380px;
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(4, 4, 39, 0.68);
+  text-align: center;
+}
+
+.card-sign .card-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.card-sign .card-body {
+  padding: 1rem;
+}
+
+.card-sign .card-body .form-sign {
+  width: 100%;
+}
+
+.card-sign .card-body .form-sign .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 10px 10px;
+  transition: all 0.2s;
+  width: 115px;
+}
+
+.card-sign .card-body .form-sign .btn:hover {
+  width: 130px;
+  background-color: lightgreen;
+  border: none;
+}
+
+.card-sign .card-body .form-sign .btn-link {
+  font-size: 80%;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  padding: 10px 10px;
+  transition: all 0.2s;
+  width: 115px;
+  text-decoration: none;
+}
+
+.card-sign .card-body .form-sign .form-group {
+  position: relative;
+  margin-bottom: 1rem;
+  background: none;
+}
+
+.card-sign .card-body .form-sign .form-group input {
+  background: inherit;
+  border-radius: 2rem;
+  text-align: center;
+  border: 2px solid #8e9bda;
+  padding: 10px 10px;
+  width: 230px;
+  outline: none;
+  transition: 0.25s;
+}
+
+.card-sign .card-body .form-sign .form-group input:focus {
+  width: 280px;
+  border: 2px solid lightgreen;
+  outline: none;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}
+
+.chatbackground {
+  background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
 }
 

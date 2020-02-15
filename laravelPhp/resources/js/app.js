@@ -36,3 +36,42 @@ Vue.component('ChatApp', require('./components/ChatApp.vue').default);
 const app = new Vue({
     el: '#app',
 });
+
+
+
+/**
+ * 
+ * 
+ * 
+ */
+
+ 
+// Barba.Pjax.start();
+
+// do not import Barba like this if you load the library through the browser
+import barba from '@barba/core';
+
+// define a global hook
+barba.hooks.leave((data) => {
+    // this hook will be called for each transitions
+  });
+
+// barba.init(
+
+//     {
+//         transitions: [
+//           {
+//             name: 'svg-circle',
+//             leave(data) {
+//               // retrieve the current page url
+//               const from = data.current.url;
+//             },
+//             enter({ next }) {
+//               // retrieve the next page url (short syntax)
+//               const to = next.url;
+//             },
+//           },
+//         ],
+//       }
+
+// );

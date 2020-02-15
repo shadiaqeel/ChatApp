@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      selected: this.contacts.length ? this.contacts[0] : null 
+      selected: this.contacts.length ? this.contacts[0] : null
     };
   },
   methods: {

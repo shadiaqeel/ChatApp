@@ -1,0 +1,98 @@
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+.card-sign {
+  border: 0;
+  border-radius: 80px 0 80px 0;
+  box-shadow: 0 1rem 2rem 0 rgb(3, 5, 33);
+  width: 380px;
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(4, 4, 39, 0.68);
+  text-align: center;
+
+  .card-title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .card-body {
+    padding: 1rem;
+
+    .form-sign {
+      width: 100%;
+      .btn {
+
+        font-size: 80%;
+        border-radius: 5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        padding: 10px 10px;
+        transition: all 0.2s;
+        width: 115px;
+        &:hover {
+            width: 130px;
+            background-color : lightgreen;
+            border:none;
+          }
+
+
+      }
+      .btn-link{
+                  font-size: 80%;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        padding: 10px 10px;
+        transition: all 0.2s;
+        width: 115px;
+        text-decoration : none;
+          
+      }
+
+      .form-group {
+        position: relative;
+        margin-bottom: 1rem;
+        background: none;
+
+        input {
+
+          background: inherit;
+          border-radius: 2rem;
+          text-align: center;
+          border: 2px solid #8e9bda;
+          padding: 10px 10px;
+          width: 230px;
+          outline: none;
+          transition: 0.25s;
+
+          &:focus {
+            width: 280px;
+            border: 2px solid lightgreen;
+          outline: none;
+
+          }
+        }
+
+
+      }
+    }
+  }
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #3b5998;
+}

@@ -44,9 +44,12 @@ export default {
 };
 </script>
 
+
+
+
 <style lang="scss" scoped>
 .feed {
-  background: #f0f0f0;
+  //#f0f0f0;
   height: 100%;
   max-height: 470px;
   overflow: scroll;
